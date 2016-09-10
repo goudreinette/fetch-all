@@ -16,9 +16,6 @@ fs.readdir(projectsdir, (err, items) => {
   else
     items.forEach(fetchIfRepository)
 })
-/**
- * Todo: log anbout fs.stat(Sync), fs.Stats
- */
 
 function fetchIfRepository (path) {
   const absolute = projectsdir + '/' + path
