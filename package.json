@@ -1,0 +1,14 @@
+{
+  "name": "fetch-all",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rein van der Woerd",
+  "license": "ISC",
+  "dependencies": {
+    "simple-git": "^1.48.0"
+  }
+}
